@@ -1,21 +1,43 @@
-# Angular8Demo
+<h1 align="center">Welcome to frontend 👋</h1>
+<p>
+  <a href="https://www.npmjs.com/package/frontend" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/frontend.svg">
+  </a>
+  <a href="#" target="_blank">
+    <img alt="License: MIT License 2.0" src="https://img.shields.io/badge/License-MIT License 2.0-yellow.svg" />
+  </a>
+  <a href="https://twitter.com/rohankrishna96" target="_blank">
+    <img alt="Twitter: rohankrishna96" src="https://img.shields.io/twitter/follow/rohankrishna96.svg?style=social" />
+  </a>
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.6.
+> Front End Views for Springboot-JWT-authentication project for Wizpanda
 
-## Other Angular Resources
+## Install
 
-[Angular 7 CRUD Example](https://www.devglan.com/angular/angular-7-crud-example)
+```sh
+npm install
+```
 
-[Angular 6 CRUD](https://www.devglan.com/angular/angular-6-example)
+## Usage
 
-[Typescript Tutorial](https://www.devglan.com/angular/typescript-tutorial)
-
-[Angular Multiple File Upload](https://www.devglan.com/angular/angular-multiple-file-upload)
-
-[Angular Universal Server Side Rendering](https://www.devglan.com/angular/angular-universal-server-side-rendering)
-
-[Spring Boot Angular Captcha](https://www.devglan.com/angular/spring-boot-angular-captcha)
-
-[Deploying Angular App on Nginx](https://www.devglan.com/angular/deploy-angular-app-nginx)
+```sh
+ng serve
+```
 
 
+## Author
+
+👤 **Rohan krishna**
+
+* Website: rohankrishna.wordpress.com
+* Twitter: [@rohankrishna96](https://twitter.com/rohankrishna96)
+* Github: [@rohan-uxdev](https://github.com/rohan-uxdev)
+* LinkedIn: [@rohankrishna](https://linkedin.com/in/rohankrishna)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
