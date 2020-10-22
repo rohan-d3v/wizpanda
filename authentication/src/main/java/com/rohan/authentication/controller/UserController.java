@@ -1,4 +1,4 @@
-package com.devglan.controller;
+package com.rohan.authentication.controller;
 
 import com.devglan.model.ApiResponse;
 import com.devglan.model.User;

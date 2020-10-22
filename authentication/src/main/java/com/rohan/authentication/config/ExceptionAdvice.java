@@ -1,4 +1,4 @@
-package com.devglan.config;
+package com.rohan.authentication.config;
 
 import com.devglan.model.ApiResponse;
 import org.springframework.web.bind.annotation.ExceptionHandler;
