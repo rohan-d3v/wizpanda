@@ -1,6 +1,6 @@
 package com.rohan.authentication.config;
 
-import com.devglan.model.User;
+import com.rohan.authentication.model.User;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
@@ -13,8 +13,8 @@ import java.util.Arrays;
 import java.util.Date;
 import java.util.function.Function;
 
-import static com.devglan.model.Constants.ACCESS_TOKEN_VALIDITY_SECONDS;
-import static com.devglan.model.Constants.SIGNING_KEY;
+import static com.rohan.authentication.model.Constants.ACCESS_TOKEN_VALIDITY_SECONDS;
+import static com.rohan.authentication.model.Constants.SIGNING_KEY;
 
 @Component
 public class JwtTokenUtil implements Serializable {
@@ -55,7 +55,7 @@ public class JwtTokenUtil implements Serializable {
 
         return Jwts.builder()
                 .setClaims(claims)
-                .setIssuer("http://devglan.com")
+                .setIssuer("http://pagefy.prg")
                 .setIssuedAt(new Date(System.currentTimeMillis()))
                 .setExpiration(new Date(System.currentTimeMillis() + ACCESS_TOKEN_VALIDITY_SECONDS*1000))
                 .signWith(SignatureAlgorithm.HS256, SIGNING_KEY)

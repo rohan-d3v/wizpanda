@@ -1,8 +1,8 @@
 package com.rohan.authentication.controller;
 
-import com.devglan.config.JwtTokenUtil;
-import com.devglan.model.*;
-import com.devglan.service.UserService;
+import com.rohan.authentication.config.JwtTokenUtil;
+import com.rohan.authentication.model.*;
+import com.rohan.authentication.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

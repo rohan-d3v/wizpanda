@@ -5,21 +5,17 @@
     <thead>
     <tr>
       <th class="hidden">Id</th>
-      <th>FirstName</th>
-      <th>LastName</th>
-      <th>UserName</th>
-      <th>Age</th>
-      <th>Salary</th>
+      <th>name</th>
+      <th>Email ID</th>
+      <th>mobile</th>
     </tr>
     </thead>
     <tbody>
     <tr *ngFor="let user of users">
       <td class="hidden">{{user.id}}</td>
-      <td>{{user.firstName}}</td>
-      <td>{{user.lastName}}</td>
+      <td>{{user.name}}</td>
       <td>{{user.username}}</td>
-      <td>{{user.age}}</td>
-      <td>{{user.salary}}</td>
+      <td>{{user.mobile}}</td>
       <td><button class="btn btn-success" (click)="deleteUser(user)"> Delete</button>
         <button class="btn btn-success" (click)="editUser(user)" style="margin-left: 20px;"> Edit</button></td>
     </tr>

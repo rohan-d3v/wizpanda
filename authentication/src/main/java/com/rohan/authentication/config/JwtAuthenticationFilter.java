@@ -18,8 +18,8 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Arrays;
 
-import static com.devglan.model.Constants.HEADER_STRING;
-import static com.devglan.model.Constants.TOKEN_PREFIX;
+import static com.rohan.authentication.model.Constants.HEADER_STRING;
+import static com.rohan.authentication.model.Constants.TOKEN_PREFIX;
 
 public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
@@ -27,7 +27,7 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
     private UserDetailsService userDetailsService;
 
     @Autowired
-    private com.devglan.config.JwtTokenUtil jwtTokenUtil;
+    private com.rohan.authentication.config.JwtTokenUtil jwtTokenUtil;
 
     @Override
     protected void doFilterInternal(HttpServletRequest req, HttpServletResponse res, FilterChain chain) throws IOException, ServletException {

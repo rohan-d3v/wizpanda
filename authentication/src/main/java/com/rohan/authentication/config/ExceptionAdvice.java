@@ -1,6 +1,6 @@
 package com.rohan.authentication.config;
 
-import com.devglan.model.ApiResponse;
+import com.rohan.authentication.model.ApiResponse;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 

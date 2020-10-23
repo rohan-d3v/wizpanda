@@ -1,9 +1,9 @@
 package com.rohan.authentication.controller;
 
-import com.devglan.model.ApiResponse;
-import com.devglan.model.User;
-import com.devglan.model.UserDto;
-import com.devglan.service.UserService;
+import com.rohan.authentication.model.ApiResponse;
+import com.rohan.authentication.model.User;
+import com.rohan.authentication.model.UserDto;
+import com.rohan.authentication.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
